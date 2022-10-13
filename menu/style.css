@@ -1,0 +1,60 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0325cf;
+}
+
+/* Background circle & borde transform */
+
+#p {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  border-radius: 50%;
+  top: 5%;
+  left: 18%;
+  transform: translate(-5%, -18%);
+  padding: 8px;
+  background: linear-gradient(135deg, #8da9c4, #eef4ed 50%, transparent 50%);
+  background-size: 250%;
+  background-position: 100% 100%;
+  transition: background 0.5s;
+}
+#p:hover {
+  background-position: 0% 0%;
+}
+/* style button */
+ul {
+  padding: 85% 24%;
+  list-style-type: none;
+}
+
+input {
+  height: 30px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  background-color: #edf3f8;
+  cursor: pointer;
+}
+.space {
+  width: 4px;
+  height: auto;
+  display: inline-block;
+}
+#ig {
+  margin-top: -25px;
+  margin-left: 10px;
+  height: 30px;
+  width: 30px;
+}
+#git {
+  margin-left: 10px;
+  height: 30px;
+  width: 30px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}

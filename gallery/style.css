@@ -1,0 +1,20 @@
+body {
+  background-color: #edf3f8;
+}
+
+.gallery img {
+  width: 95%;
+  height: 472px;
+  border: 10px solid #f2f2f2;
+  box-shadow: 0 0 4px #0007;
+  border-radius: 15px;
+}
+.gallery ul {
+  display: block;
+  list-style-type: none;
+}
+.judul h1 {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+}

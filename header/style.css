@@ -1,0 +1,25 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+header {
+  background-color: #3a5bff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  margin-right: auto;
+  margin-left: 10px;
+  cursor: pointer;
+  color: white;
+}
+nav ul {
+  display: flex;
+  padding: 10px;
+  list-style-type: none;
+  gap: 20px;
+}
